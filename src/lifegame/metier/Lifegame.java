@@ -71,7 +71,7 @@ public class Lifegame
 	}
 
 	// STATIC METHODS
-	public static Cell[][] gridInit( int lig, int col )
+	private static Cell[][] gridInit( int lig, int col )
 	{
 		Cell[][] grid = new Cell[lig][col];
 
