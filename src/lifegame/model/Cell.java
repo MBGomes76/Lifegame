@@ -1,4 +1,4 @@
-package lifegame.metier;
+package lifegame.model;
 
 public class Cell
 {

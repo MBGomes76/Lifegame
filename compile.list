@@ -2,5 +2,8 @@
 
 src/lifegame/Controller.java
 
-src/lifegame/metier/Cell.java
-src/lifegame/metier/Lifegame.java
+src/lifegame/model/Cell.java
+src/lifegame/model/Lifegame.java
+
+src/lifegame/view/FrameLifegame.java
+src/lifegame/view/PanelLifegame.java

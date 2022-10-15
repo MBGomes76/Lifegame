@@ -1,4 +1,4 @@
-package lifegame.metier;
+package lifegame.model;
 
 public class Lifegame
 {
@@ -9,9 +9,25 @@ public class Lifegame
 	{
 		this.grid = Lifegame.gridInit( lig, col );
 
-		this.grid[1][2] = new Cell( true );
-		this.grid[2][2] = new Cell( true );
-		this.grid[3][2] = new Cell( true );
+		this.grid[10][10] = new Cell( true );
+		this.grid[11][10] = new Cell( true );
+		this.grid[12][10] = new Cell( true );
+	}
+
+	// GETTERS
+	public int getWidth()
+	{
+		return this.grid[0].length;
+	}
+
+	public int getHeight()
+	{
+		return this.grid.length;
+	}
+
+	public boolean getCell( int lig, int col )
+	{
+		return this.grid[lig][col].getState();
 	}
 
 	// METHOD
